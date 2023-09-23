@@ -1,0 +1,91 @@
+.container {
+
+ margin:auto ;
+justify-content: space-between;
+display: flex;
+text-align: center;
+border-radius: 10px;
+border: hidden;
+border-color: aliceblue;
+background-color: #b82698b9;
+    background-image: linear-gradient( to right, rgba(0, 89, 255, 0.575), transparent, rgba(255, 38, 0, 0.39) ); 
+
+}
+
+
+
+div { 
+    margin: 10px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-variant: small-caps;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 500px;
+    
+    
+}
+
+
+
+h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    color: white;
+    display: block;
+    background-color: 
+    rgba(119, 114, 69, 0);
+    font-variant: small-caps;
+    border-radius: 20px;
+ 
+    background-image: linear-gradient( to right, rgba(248, 163, 5, 0.74), rgba(255, 16, 203, 0.425) , rgba(255, 51, 0, 0.733) ); 
+}
+
+
+h1:hover {
+    border-color: aqua;
+    background-color: 
+    rgba(119, 114, 69, 0);
+    
+    background-image: linear-gradient( to right, rgba(3, 80, 180, 0.842), rgb(255, 16, 203) , rgba(219, 10, 191, 0.849) ); 
+}
+
+
+p {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+button {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-variant: small-caps;
+    background-color: rgba(212, 20, 230, 0.904);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border-color: aliceblue;
+    margin-bottom: 20px;
+    
+}
+button:hover {
+    background-color: orangered;
+}
+
+
+    /*background-color: 
+    rgb(83, 25, 122);
+    background-image: linear-gradient( to right, rgba(255, 0, 0, 0.493), transparent, rgba(0, 0, 255, 0.575) ); 
+*/
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 25px;
+    border: solid;
+}
+img:hover {
+    border-color: rgb(255, 51, 0);
+}
+.texto {
+    color: aliceblue;
+}
